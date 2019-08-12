@@ -28,6 +28,8 @@ APPEND_SLASH = True
 
 # Application definition
 
+AUTH_USER_MODEL = 'subscription.Customer'
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -35,6 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'subscription.apps.SubscriptionConfig',
 )
 
 MIDDLEWARE = [
