@@ -1,0 +1,10 @@
+# Meta
+*.pyc
+
+# Databases
+*.sqlite
+
+# Project related
+/public/static/*
+/public/media/*
+#.env

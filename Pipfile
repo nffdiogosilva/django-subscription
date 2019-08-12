@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.7"
+
+[dev-packages]
+django-debug-toolbar = "*"
+pytest-django = "*"
+pytest-cov = "*"
+
+[packages]
+Django = {version = ">=2.2,<3.0"}
+
+unipath = "*"
+django-dotenv = "*"
+django-getenv = "*"
+dj-database-url = "*"
