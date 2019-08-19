@@ -1,5 +1,7 @@
 # Meta
 *.pyc
+.coverage
+.vscode/*
 
 # Databases
 *.sqlite
